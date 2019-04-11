@@ -1,0 +1,17 @@
+@import"_variables";
+
+
+//mixin for buttons
+@mixin btn{
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #900200;
+  font-size: 15px;
+}
+
+@mixin change{
+  display: none;
+  font-size: 12px;
+  font-weight: bold;
+}

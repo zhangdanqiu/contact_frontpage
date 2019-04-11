@@ -1,0 +1,58 @@
+@import"variables";
+@import"mixin";
+
+
+.head p{
+ margin-top: 15px;
+}
+
+
+.label a{
+  color: #900200;
+  font-size: 12px;
+  margin-left: 3px;
+  display: none;
+}
+
+
+.main_left button{
+  @include btn;
+  float: right;
+}
+
+#new_contact button{
+  @include btn;
+  margin:{
+    left:5px;
+    bottom: 2px;
+  };
+  font-size: 13px;
+}
+
+.First_Name{
+  width: 100px;
+  cursor: pointer;
+}
+
+.main_right p{
+  margin: 10px;
+  font-size: 14px;
+}
+
+.main_right input{
+  padding-right: 40px;
+  float: right;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: #3E3E3E solid 2px;
+
+}
+
+#contactDetail .label{
+  margin-left: 10px;
+  font-size: 14px;
+}
+#contactDetail .detail{
+  margin-left: 10px;
+}

@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+//
+
+body{
+  background-color: #FAFAFA;
+  font-family: Helvetica;
+  color: #3E3E3E;
+}
+
+#mainRight{
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #FFFFFF;
+  float: left;
+  padding:{
+    top: 5px;
+    left: 15px;
+    right: 20px;
+  }
+  width: 32%;
+  height: 500px;
+}

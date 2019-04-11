@@ -1,0 +1,10 @@
+<div class="main_left">
+  <button id="addCot" (click)="buttonClick()" >Add</button>
+  <p id="tip">Click Name for More</p>
+  <ul id="contacts" class="listContact">
+    <li class = "main_list" *ngFor="let detail of detailList">
+      <span class="First_Name" id={{detail.FirstName}} (click)="showDetail($event)"> {{detail.FirstName}}</span>
+    </li>
+  </ul>
+  <!--<button id="test2" (click)="getDataFromChild">father-child</button>-->
+</div>

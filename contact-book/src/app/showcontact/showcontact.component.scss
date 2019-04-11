@@ -1,0 +1,30 @@
+@import "./../../scss/mixin.scss";
+@import "./../../scss/nav.scss";
+
+
+.main_left{
+  float: left;
+  margin-top: 5px;
+  background-color: #FFFFFF;
+  margin-left: 0px;
+  padding: 15px;
+  width: 60%;
+  height: 500px;
+}
+#contacts{
+  margin-top: 10px;
+  list-style: none;
+}
+.main_list{
+  list-style: none;
+  margin:{
+    top: 5px;
+    bottom: 5px;
+    left: -15px;
+  }
+}
+
+.main_left button{
+  @include btn;
+  float: right;
+}

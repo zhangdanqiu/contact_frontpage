@@ -1,0 +1,25 @@
+@import "./../../scss/mixin.scss";
+@import "./../../scss/nav.scss";
+
+#contactDetail{
+  margin-top: 25px;
+  border: #B5B5B5 solid 1px;
+  border-radius: 3px;
+}
+
+
+#contactDetail .label{
+  margin-left: 10px;
+  font-size: 14px;
+}
+#contactDetail .detail{
+  margin-left: 10px;
+}
+
+.label a{
+  color: #900200;
+  font-size: 12px;
+  margin-left: 3px;
+  display: none;
+}
+
